@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a total Submitted form</title>
+  <style>
+    main {
+      margin-left: 20px;
+    }
+
+    .serch {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      /* justify-content: center; */
+
+    }
+
+    input,
+    textarea {
+      border: 2px dashed green;
+      border-radius: 8px;
+      padding: 10px;
+
+
+
+    }
+
+    label {
+      font-size: larger;
+      font-weight: 500;
+    }
+
+
+    input:hover,
+    textarea:hover {
+      background-color: seashell;
+      cursor: pointer;
+
+    }
+
+    img {
+      height: 460px;
+      border-radius: 10px;
+      display: block;
+      align-items: center;
+
+
+
+
+    }
+
+
+
+    .column input,
+    a,
+    textarea {
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="serch">
+        <h3>Search your Image here</h3>
+        <input type="search">
+        <input type="submit" value="Search">
+
+      </div>
+      <div class="column">
+        <img src="./pic.jpeg" alt="">
+        <a href="#">For more click here</a>
+        <h3>Feedback From</h3>
+        <label>Name:</label>
+        <input type="text">
+        <label>Date:</label>
+        <input type="date">
+        <label>Comment:</label>
+        <textarea name="" id="" cols="50" rows="4"></textarea>
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
